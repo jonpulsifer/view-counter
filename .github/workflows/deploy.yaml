@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - id: auth
-        uses: google-github-actions/auth@v1
+        uses: google-github-actions/auth@v2
         with:
           workload_identity_provider: projects/629296473058/locations/global/workloadIdentityPools/homelab/providers/github
           service_account: github-actions@homelab-ng.iam.gserviceaccount.com
