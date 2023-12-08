@@ -21,7 +21,7 @@ jobs:
           service_account: github-actions@homelab-ng.iam.gserviceaccount.com
 
       - id: deploy
-        uses: google-github-actions/deploy-cloud-functions@v1
+        uses: google-github-actions/deploy-cloud-functions@v2
         with:
           name: view-counter
           runtime: go121
